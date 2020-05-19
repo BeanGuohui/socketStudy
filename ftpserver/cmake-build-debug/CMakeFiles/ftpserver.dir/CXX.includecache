@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/beanguohui/socketStudy/ftpserver/header.h
+stdlib.h
+-
+stdio.h
+-
+sys/socket.h
+-
+unistd.h
+-
+sys/types.h
+-
+string.h
+-
+ctype.h
+-
+arpa/inet.h
+-
+ctype.h
+-
+sys/stat.h
+-
+sys/types.h
+-
+
+/home/beanguohui/socketStudy/ftpserver/main.cpp
+iostream
+-
+myftp.h
+/home/beanguohui/socketStudy/ftpserver/myftp.h
+
+/home/beanguohui/socketStudy/ftpserver/myftp.h
+header.h
+/home/beanguohui/socketStudy/ftpserver/header.h
+string
+-
+

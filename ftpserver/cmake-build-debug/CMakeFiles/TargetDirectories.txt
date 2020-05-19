@@ -1,0 +1,3 @@
+/home/beanguohui/socketStudy/ftpserver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/beanguohui/socketStudy/ftpserver/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/beanguohui/socketStudy/ftpserver/cmake-build-debug/CMakeFiles/ftpserver.dir

@@ -5,6 +5,7 @@
 #include <sys/types.h>
 #include <string.h>
 #include <ctype.h>
+#include <sys/stat.h>
 #include <arpa/inet.h>
 #define SERVER_PORT 6666
 #define BYTE unsigned char
@@ -26,8 +27,12 @@ int main()
 		write(client,buf,strlen(buf));
 		FILE *fp = fopen("./t.png","wb");
 		int length = 0 ;
+		struct stat filestat;
+
+		int n = read(client,&filestat,sizeof(filestat));
 		while(1)
 		{
+			
 			int n = read(client,buf,400);
 			if(n == 0)
 			{
@@ -37,7 +42,8 @@ int main()
 			fwrite(buf,1,n,fp);
 			length = length + n;
 			printf("length :%d\n", length);
-			if(length >= 573)
+			printf("filestat.st_size:%d\n",(int)filestat.st_size);
+			if(length >= (int)filestat.st_size)
 				break;
 			printf("n:%d\n",n);
 		}

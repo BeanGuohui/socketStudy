@@ -1,0 +1,17 @@
+总用量 104
+-rw-rw-r-- 1 beanguohui beanguohui     0 5月  19 09:52 1.txt
+drwxrwxr-x 2 beanguohui beanguohui  4096 5月  19 09:45 build-ftp-Desktop_Qt_5_9_0_GCC_64bit-Debug
+-rwxrwxr-x 1 beanguohui beanguohui 17200 5月  18 12:40 client
+-rw-rw-r-- 1 beanguohui beanguohui  1252 5月  18 12:39 client.c
+-rwxrwxr-x 1 beanguohui beanguohui 17040 5月  17 20:18 file
+-rw-rw-r-- 1 beanguohui beanguohui   573 5月  17 20:18 file.c
+drwxrwxr-x 2 beanguohui beanguohui  4096 5月  19 09:49 ftp
+drwxrwxr-x 4 beanguohui beanguohui  4096 5月  18 15:14 ftpserver
+-rw-rw-r-- 1 beanguohui beanguohui  2379 5月  18 12:47 pixserver.cpp
+drwxrwxr-x 3 beanguohui beanguohui  4096 5月  18 23:07 server
+-rw-rw-r-- 1 beanguohui beanguohui  1108 5月  16 13:15 server.c
+-rwxrwxr-x 1 beanguohui beanguohui 16688 5月  19 09:52 sys
+-rw-rw-r-- 1 beanguohui beanguohui    91 5月  19 09:52 sys.c
+-rw-rw-r-- 1 beanguohui beanguohui   573 5月  18 12:40 t.c
+-rw-rw-r-- 1 beanguohui beanguohui   330 5月  17 20:21 temp.png
+-rw-rw-r-- 1 beanguohui beanguohui     0 5月  18 12:47 t.png
